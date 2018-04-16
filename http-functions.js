@@ -4,11 +4,6 @@ function printHTML (html) {
   console.log(html);
 }
 
-var requestOptions = {
-  host: 'sytantris.github.io',
-  path: '/http-examples/step4.html'
-};
-
 module.exports = function getHTML (options, callback) {
 
   var TotalData; 
